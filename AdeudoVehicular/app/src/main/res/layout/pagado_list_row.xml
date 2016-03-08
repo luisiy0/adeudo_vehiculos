@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+
+
+        <TextView
+            android:id="@+id/txtPlaca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2010"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".25"
+            android:textColor="@color/negro"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+        <TextView
+            android:id="@+id/txtRecibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:text="IMPUESTO SOBRE TENENCIA O USO DE VEHICULOS"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".45"
+            android:textColor="@color/negro"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30"
+            android:id="@+id/txtDescargado"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/check"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

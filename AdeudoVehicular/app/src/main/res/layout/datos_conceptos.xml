@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/headerConceptos"
+        android:background="@color/green600">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="EJERCICIO"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".20"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/header_titulo"
+
+            android:textStyle="bold"/>
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:text="CONCEPTO"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".60"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/header_titulo"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="IMPORTE"
+            android:layout_gravity="left"
+            android:textColor="@color/negro"
+            android:layout_weight=".20"
+            android:textSize="@dimen/header_titulo"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/headerConceptos"
+        android:id="@+id/scrollViewConceptos" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/listDatos"
+            android:layout_marginBottom="10dp">
+
+<!--
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp">
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2010"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight=".20"
+                    android:textColor="@color/negro"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:text="IMPUESTO SOBRE TENENCIA O USO DE VEHICULOS"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight=".60"
+                    android:textColor="@color/negro"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="cantidad"
+                    android:layout_gravity="right"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/negro"
+                    android:layout_weight=".20"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp">
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight=".20"
+                    android:textColor="@color/negro"
+                    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:text="IMPUESTO SOBRE TENENCIA O USO DE VEHICULOS"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight=".60"
+                    android:textColor="@color/negro"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="cantidad"
+                    android:layout_gravity="right"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/negro"
+                    android:layout_weight=".20"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/divisor"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:id="@+id/layoutTotal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total ejercicio: 2011"
+                    android:textStyle="bold"
+                    android:layout_weight=".80"
+                    android:id="@+id/TextEjercicio"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:text="$300.00"
+                    android:id="@+id/Valor_Total_Ejercicio"
+                    android:layout_weight=".20"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+-->
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>
+
+

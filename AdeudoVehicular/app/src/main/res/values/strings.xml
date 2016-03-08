@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Adeudo Vehicular</string>
+    <string name="secretaria">Secretaría de \n Planeación y Finanzas</string>
+    <string name="action_settings">Pagos Realizados</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps22">Map</string>
+
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Encabezados de</string>
+    <string name="title_activity_mapa_receptoria">Map</string>
+    <string name="title_activity_pruebabotton">Pruebabotton</string>
+
+</resources>

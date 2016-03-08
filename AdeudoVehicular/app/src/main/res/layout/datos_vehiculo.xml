@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_row="6"
+        android:layout_column="2" >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp"
+        >
+
+        <TextView
+            android:text="Nombre"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/negro"
+            android:textStyle="bold"
+           android:layout_weight=".25"
+            />
+
+        <TextView
+            android:text="MAURICIO ALBERTO LOPEZ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextNombre"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/negro"
+            android:gravity="center|left"
+            android:layout_weight=".75"
+            android:layout_marginLeft="8dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="Placa"
+            android:gravity="right"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/negro"
+            android:textStyle="bold"
+            android:layout_weight=".25"
+            />
+
+        <TextView
+            android:text="FTC5221"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/TextPlaca"
+            android:gravity="center|left"
+            android:textColor="@color/negro"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="8dp"
+            android:layout_weight=".75"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <TextView
+                android:text="Modelo"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:layout_weight=".25"
+                />
+
+            <TextView
+                android:text="2010"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/TextModelo"
+                android:gravity="center|left"
+                android:textColor="@color/negro"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_weight=".75"/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <TextView
+                android:text="Serie"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:layout_weight=".25"
+                />
+
+            <TextView
+                android:text="3N1CN7AD7EK417088"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center|left"
+                android:id="@+id/TextNumeroSerie"
+                android:textColor="@color/negro"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_weight=".75"/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <TextView
+                android:text="Vehículo"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:layout_weight=".25"
+                />
+
+            <TextView
+                android:text="VEHICULOS"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center|left"
+                android:textColor="@color/negro"
+                android:id="@+id/TextIdVehiculo"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight=".75"
+                android:layout_marginLeft="8dp"
+                />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <Space
+
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_weight=".25"
+                />
+
+            <TextView
+                android:text="CHRYSLER DE MEXICO, S.A."
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center|left"
+                android:id="@+id/TextMarcaVehiculo"
+                android:textColor="@color/negro"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_weight=".75"/>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_gravity="fill"
+                android:layout_weight=".25"
+                />
+
+            <TextView
+                android:text="SHADOW 2 PUERTAS"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center|left"
+                android:id="@+id/TextLineaVehiculo"
+                android:textColor="@color/negro"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_weight=".75"/>
+
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            >
+
+            <Space
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_gravity="fill"
+                android:layout_weight=".25"
+                />
+
+            <TextView
+                android:text="TIPICO AUTOMATICO 4 CIL."
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:gravity="center|left"
+                android:id="@+id/TextVersionVehiculo"
+                android:textColor="@color/negro"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="8dp"
+                android:layout_weight=".75"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:id="@+id/layoutSubsidio"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:gravity="center|left"
+                android:textColor="@color/negro"
+                android:id="@+id/txtSubsidio" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_camera"
+        android:onClick="GuardarPantalla"/>
+
+</android.support.design.widget.CoordinatorLayout>
+

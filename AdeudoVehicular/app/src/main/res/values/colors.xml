@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primary">#8BC34A</color>  <!-- 500-->
+    <color name="primary_dark">#689F38</color>   <!--700-->
+    <color name="green600">#7CB342</color> <!--600-->
+
+    <color name="accent">#FFAB00</color>
+    <color name="fondo">#FAFAFA</color>
+    <color name="negro">#000000</color>
+    <color name="divisor">#b5b5b5</color>
+
+
+<!--
+    <color name="primary">#9E9E9E</color>
+    <color name="primary_dark">#616161</color>
+    <color name="green600">#757575</color>
+
+    <color name="accent">#000000</color>
+    <color name="fondo">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="divisor">#b5b5b5</color> -->
+
+
+
+</resources>
